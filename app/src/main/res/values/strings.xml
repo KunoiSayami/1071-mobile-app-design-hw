@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str_search">Search</string>
+    <string name="str_bt_confirm">Confirm</string>
+    <string name="str_txt_name">Name</string>
+    <string name="txt_address_description">Enter you want to search for</string>
+</resources>
