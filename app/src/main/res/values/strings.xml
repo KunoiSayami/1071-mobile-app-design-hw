@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="str_search">Search</string>
+    <string name="str_quick_search">Quick Search</string>
     <string name="str_bt_confirm">Confirm</string>
     <string name="str_txt_name">Name</string>
     <string name="txt_address_description">Enter you want to search for</string>
+    <string-array name="food_type">
+        <item>launch</item>
+        <item>dinner</item>
+    </string-array>
+    <string-array name="food_list_demo">
+        <item>launch</item>
+        <item>dinner</item>
+    </string-array>
 </resources>
