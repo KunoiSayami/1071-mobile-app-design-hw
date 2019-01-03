@@ -29,7 +29,6 @@
                 android:ems="10"
                 android:hint="@string/txt_address_description"
                 android:inputType="textPersonName"
-                android:text="@string/str_txt_name"
                 tools:targetApi="o" />
 
             <Button
@@ -40,16 +39,18 @@
                 android:text="@string/str_search" />
         </LinearLayout>
 
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="match_parent"
-            android:layout_height="428dp" />
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="427dp"
+            android:contentDescription="@string/txt_img_map_description"
+            app:srcCompat="@drawable/screenshot_20190103221817" />
 
         <Button
             android:id="@+id/bt_search_food"

@@ -5,6 +5,7 @@
     <string name="str_bt_confirm">Confirm</string>
     <string name="str_txt_name">Name</string>
     <string name="txt_address_description">Enter you want to search for</string>
+    <string name="txt_img_map_description">Map image</string>
     <string-array name="food_type">
         <item>launch</item>
         <item>dinner</item>

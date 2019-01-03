@@ -29,7 +29,6 @@
                 android:hint="@string/txt_address_description"
                 android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:text="@string/str_quick_search"
                 tools:targetApi="o" />
 
             <Spinner
