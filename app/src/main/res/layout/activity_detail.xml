@@ -22,7 +22,7 @@
 
             <EditText
                 android:id="@+id/editText"
-                android:layout_width="573dp"
+                android:layout_width="502dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
@@ -40,10 +40,18 @@
 
         </LinearLayout>
 
+        <ImageView
+            android:id="@+id/Weather_weight"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:contentDescription="@string/txt_reserved"
+            app:srcCompat="@drawable/weather_widget" />
+
         <ListView
             android:id="@+id/food_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="none|vertical" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
