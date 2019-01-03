@@ -47,11 +47,12 @@
             android:contentDescription="@string/txt_reserved"
             app:srcCompat="@drawable/weather_widget" />
 
-        <ListView
-            android:id="@+id/food_list"
+        <ImageView
+            android:id="@+id/foodlist"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="none|vertical" />
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txt_reserved"
+            app:srcCompat="@drawable/foodview" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
